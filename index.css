@@ -1,0 +1,70 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+form {
+    text-align: center;
+    border:1px solid black ;
+    width:50%;
+    height:25%;
+    margin:2px auto ;
+    position:relative ;
+}
+#map{
+    height:40%;
+    width:60% ;
+    margin:10px auto;
+    display: none;
+
+}
+input {
+    width:50%;
+}
+ul {
+    position: absolute;
+    width:50%;
+    padding: 0px;
+    top:0.6vh ;
+ left:25% ;
+    border:1px solid rgb(185, 182, 182);
+    list-style-type: none;
+    font-size: 0.8rem;
+}
+li {
+    border:1px solid rgb(177, 175, 175);
+    padding:2px;
+    cursor: pointer;
+}
+li:hover {
+    background-color: aliceblue;
+    color:rgb(88, 87, 87);
+    border:1px solid rgb(88,87,87);
+}
+img {
+    width:10vw ;
+    height:5vh;
+}
+ .mainCard {
+    width:70%;
+    margin: 1vh auto;
+    height:45%;
+    border:1px solid black;
+    padding: 1vh 2vw;
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+ .dataCard {
+     width:70%;
+     margin: 10px auto;
+     display: grid;
+     grid-template-columns: auto auto;
+ }
+ .dataCard > div {
+     border: 1px solid black;
+     margin:1vh 1vw ;
+     padding:1vh 1vw;
+
+ }
