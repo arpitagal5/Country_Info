@@ -18,9 +18,6 @@ function initMap(val1,val2){
      }
 }
 
-
-
-
 const countryCard = document.querySelector('.maincard');
 const dataCard  = document.querySelector('.dataCard');
 const inputElement = document.querySelector('input') ;
